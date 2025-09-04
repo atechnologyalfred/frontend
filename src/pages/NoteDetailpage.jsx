@@ -18,7 +18,7 @@ const NoteDetailPage = () => {
         title: data.title,
         content: data.content
       });
-      console.log(values);
+      alert(value)
     };
     fetchNote();
   }, [id]);
